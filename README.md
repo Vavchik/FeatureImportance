@@ -213,19 +213,3 @@ permutation_importance(model, X, y, n_repeats=10, random_state=42, n_jobs=-1)
 ```
 
 ---
-
-## 7. Как запустить
-
-```bash
-cd /home/vladimir/pet_projects/Staties
-
-# Активировать виртуальное окружение
-source cyrillic_tokenizer_audit/venv/bin/activate
-
-# Запустить скрипт
-SKB_DATA_DIRECTORY=/tmp/skrub_data \
-MPLCONFIGDIR=/tmp/mpl \
-SCIKIT_LEARN_DATA=/tmp/scikit_learn_data \
-python feature_importance_audit/scripts/run_experiment.py
-```
-
